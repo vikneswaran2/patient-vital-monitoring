@@ -2,6 +2,7 @@
 
 ## Overview
 <img width="1536" height="1024" alt="ChatGPT Image May 27, 2026, 08_30_03 PM" src="https://github.com/user-attachments/assets/26051ca7-4f72-4643-8cd1-6742361d3c39" />
+<img width="1307" height="737" alt="image" src="https://github.com/user-attachments/assets/33026eb0-0b05-425c-b08d-7d4408b11e04" />
 
 This project is a real-time healthcare streaming analytics pipeline built using modern cloud-native data engineering technologies on Google Cloud Platform.
 

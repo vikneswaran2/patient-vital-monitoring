@@ -5,7 +5,6 @@ import os
 from google.cloud import pubsub_v1
 from dotenv import load_dotenv
 
-# Load environment variables from .env file
 load_dotenv()
 
 PROJECT_ID = os.getenv("GCP_PROJECT")
@@ -33,7 +32,6 @@ def generate_vitals():
         "bp_diastolic": round(random.uniform(60, 90), 1)
     }
 
-    # Inject errors based on ERROR_RATE
     if random.random() < ERROR_RATE:
         error_type = random.choice(["missing_field", "negative_value", "out_of_range"])
         if error_type == "missing_field":
